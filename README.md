@@ -1,7 +1,7 @@
 # Fruits-And-Vegetables-Detection-Dataset
 
 **TLDR**: This repo contains ...
-- the biggest fruits and vegetable YOLO formatted image dataset for object detection with **62 classes** and **8221 images**.
+- the biggest fruits and vegetable YOLO formatted image dataset for object detection with **63 classes** and **8221 images**.
 - three YOLOv8 fine-tuned baseline models (`medium`, `large`, `xlarge`).
 - sample application demo for scoring the healthiness of meals
 - Test it online **[here](https://hub.ultralytics.com/projects/AIhZh0lIAJko7snRmM5f)** 
