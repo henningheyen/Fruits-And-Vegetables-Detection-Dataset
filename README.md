@@ -19,8 +19,8 @@
 
 ## The Dataset
 
-- The dataset is a subset of the [LVIS dataset](https://www.lvisdataset.org) which consists of 160k images and 1203 classes for object detection. It is originally COCO-formatted (`json` based).
-- We have converted this dataset to YOLO format (`txt` based)
+- The dataset is a subset of the [LVIS dataset](https://www.lvisdataset.org) which consists of 160k images and 1203 classes for object detection. It is originally COCO-formatted (`.json` based).
+- We have converted this dataset to YOLO format (`.txt` based)
 - All images that do not contain any fruits or images have been removed, resulting in `8221` images and `63` classes (`6721`train, `1500` validation). Additional `180` test images have been manually labeled with Roboflow
 - The classes cover most common fruits and vegetables (see [fruits_vegetables_LVIS_dict.json](fruits_vegetables_LVIS_dict.json)
 - The `LVIS-Fruits-And-Vegetables-Dataset` has also been uploaded to
