@@ -76,6 +76,7 @@ In the [meal_scoring](meal_scoring.ipynb) demo we apply our fine-tuned models to
 
 <div>
     <img src="Example_Results/20240327_3c8f4813-06ae-4d71-8dd3-d6f5d2e41c9a_4_png.rf.ef6e00bb24b03c891f248a60686d94f1.jpg.png" alt="Example 1" width="300"/>
+    <img src="Figures/meal_scoring_example.png" alt="Example 1" width="300"/>
 </div>
 
 ## Future Steps
