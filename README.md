@@ -42,12 +42,21 @@ The [demo](demp.ipynb) contains examples on how to run inference. Example images
 
 To test our models on a web interface check out the **[Ultralytics Inference API](https://hub.ultralytics.com/projects/AIhZh0lIAJko7snRmM5f)** under the `Preview` tab. 
 
+** Example images from test set**: 
+<div>
+    <img src="Example_Results/20240327_cf3f38d0-7783-4ced-9409-1619c54978f2_2_png.rf.67158dd9f55216861c1d70a108c0f6a6.jpg.png" alt="Example 1" width="150"/>
+    <img src="Example_Results/20240328_d2e6cc91-5c10-4f25-9a29-924f7c25a5ad_2_png.rf.33245658e43630ece456a011bd732270.jpg.png" alt="Example 2" width="150"/>
+    <img src="Example_Results/20240328_da48c0fd-c904-41ea-a71a-a3b5658b491b_2_png.rf.41265e816ff7564e1844e62f1fc6c470.jpg.png" alt="Example 3" width="150"/>
+    <img src="Example_Results/20240403_4432624f-9fac-4d78-afab-742d358eb95c_1_png.rf.713a2208111a7804cbf8635cc4335861.jpg.png" alt="Example 3" width="150"/>
+    <img src="Example_Results/20240404_ad61f4d1-5de3-4bc0-9ca1-5739e6c27b93_1_png.rf.7d373ebdd27bfa61c314f9412feed63d.jpg.png" alt="Example 3" width="150"/>
+</div>
+
 ## Sample Application: Meal Scoring
 
 In the [meal_scoring](meal_scoring.ipynb) demo we apply our fine-tuned models to score the healthiness of meals. A use case could be that users upload photos of their meals and with our simple and complex scoring algorithms, the user will then be rewarded points depending on how colourful and healthy the meal is. 
 
 <div>
-    <img src="Example_Results/20240327_3c8f4813-06ae-4d71-8dd3-d6f5d2e41c9a_4_png.rf.ef6e00bb24b03c891f248a60686d94f1.jpg.png" alt="Example 1" width="200"/>
+    <img src="Example_Results/20240327_3c8f4813-06ae-4d71-8dd3-d6f5d2e41c9a_4_png.rf.ef6e00bb24b03c891f248a60686d94f1.jpg.png" alt="Example 1" width="300"/>
 </div>
 
 ## Future Steps
@@ -55,16 +64,8 @@ In the [meal_scoring](meal_scoring.ipynb) demo we apply our fine-tuned models to
 - To achieve better performance the class distribution has to be more uniform. As depicted below most detections in the train set are `Bananas`, `Carrots` and `Apples`.
 
 <div>
-    <img src="Figures/Number of Occurrences per Class in the Training Dataset (LVIS_Mirror).png" alt="DatasetDistribution" width="200"/>
+    <img src="Figures/Number of Occurrences per Class in the Training Dataset (LVIS_Mirror).png" alt="DatasetDistribution" width="500"/>
 </div>
 
 
-# Examples
 
-<div>
-    <img src="Example_Results/20240327_cf3f38d0-7783-4ced-9409-1619c54978f2_2_png.rf.67158dd9f55216861c1d70a108c0f6a6.jpg.png" alt="Example 1" width="200"/>
-    <img src="Example_Results/20240328_d2e6cc91-5c10-4f25-9a29-924f7c25a5ad_2_png.rf.33245658e43630ece456a011bd732270.jpg.png" alt="Example 2" width="200"/>
-    <img src="Example_Results/20240328_da48c0fd-c904-41ea-a71a-a3b5658b491b_2_png.rf.41265e816ff7564e1844e62f1fc6c470.jpg.png" alt="Example 3" width="200"/>
-    <img src="Example_Results/20240403_4432624f-9fac-4d78-afab-742d358eb95c_1_png.rf.713a2208111a7804cbf8635cc4335861.jpg.png" alt="Example 3" width="200"/>
-    <img src="Example_Results/20240404_ad61f4d1-5de3-4bc0-9ca1-5739e6c27b93_1_png.rf.7d373ebdd27bfa61c314f9412feed63d.jpg.png" alt="Example 3" width="200"/>
-</div>
