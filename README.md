@@ -61,7 +61,7 @@ To test our models on a web interface check out the **[Ultralytics Inference API
     <img src="Figures/inference_api.png" width="750"/>
 </div>
 
-** Example images from test set**: 
+**Example images from test set**: 
 <div>
     <img src="Example_Results/20240327_cf3f38d0-7783-4ced-9409-1619c54978f2_2_png.rf.67158dd9f55216861c1d70a108c0f6a6.jpg.png" alt="Example 1" width="150"/>
     <img src="Example_Results/20240328_d2e6cc91-5c10-4f25-9a29-924f7c25a5ad_2_png.rf.33245658e43630ece456a011bd732270.jpg.png" alt="Example 2" width="150"/>
