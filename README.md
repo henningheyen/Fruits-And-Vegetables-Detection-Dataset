@@ -64,7 +64,7 @@ In the [meal_scoring](meal_scoring.ipynb) demo we apply our fine-tuned models to
 - To achieve better performance the class distribution has to be more uniform. As depicted below most detections in the train set are `Bananas`, `Carrots` and `Apples`.
 
 <div>
-    <img src="Figures/Number of Occurrences per Class in the Training Dataset (LVIS_Mirror).png" alt="DatasetDistribution" width="500"/>
+    <img src="Figures/Number of Occurrences per Class in the Training Dataset (LVIS_Mirror).png" alt="DatasetDistribution" width="800" height="400"/>
 </div>
 
 
