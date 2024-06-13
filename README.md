@@ -16,8 +16,17 @@
 
 # The Model
 
-To fine tune a YOLOv8 model the following code can be used as also shown in the [demo](demo.ipynb):
+To fine-tune a YOLOv8 model the following code can be used as also shown in the [demo](demo.ipynb):
 
+```
+from ultralytics import YOLO
+
+# Load a pretrained model (e.g. YOLOv8)
+model = YOLO('yolov8n.yaml')  # build a new model from YAML
+
+# Fine tuning the model on our custom dataset
+results = model.train(data='LVIS_Fruits_And_Vegetables/data.yaml', epochs=50, imgsz=640)
+```
 
 
 The models have been trained using Ultrylitics HUB Cloud compute resources. Three models have been trained based on different sizes of the pretrained models (`yolov8m`, `yolov8l`, `yolov8x). 
