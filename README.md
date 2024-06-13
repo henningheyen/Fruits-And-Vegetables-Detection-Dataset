@@ -1,5 +1,17 @@
 # Fruits-And-Vegetables-Detection-Dataset
 
+<div>
+    <img src="Figures/LVIS_Sample_Images/lvis1.jpg" width="100"/>
+    <img src="Figures/LVIS_Sample_Images/lvis2.jpg" width="100"/>
+    <img src="Figures/LVIS_Sample_Images/lvis3.jpg" width="100"/>
+    <img src="Figures/LVIS_Sample_Images/lvis4.jpg" width="100"/>
+    <img src="Figures/LVIS_Sample_Images/lvis5.jpg" width="100"/>
+    <img src="Figures/LVIS_Sample_Images/lvis6.jpg" width="100"/>
+    <img src="Figures/LVIS_Sample_Images/lvis7.jpg" width="100"/>
+    <img src="Figures/LVIS_Sample_Images/lvis8.jpg" width="100"/>
+</div>
+
+
 **TLDR**: This repo contains ...
 - the biggest fruits and vegetable image YOLO formatted dataset for object detection with 62 classes and 8221 images.
 - three YOLOv8 fine tuned baseline models (`medium`, `large`, `xlarge`).
@@ -41,6 +53,10 @@ Training locally can be time-consuming. We have trained the models using Ultryli
 The [demo](demp.ipynb) contains examples on how to run inference. Example images with detection using the `xlarge` model can be found in the [Example_Results](Example_Results) folder. 
 
 To test our models on a web interface check out the **[Ultralytics Inference API](https://hub.ultralytics.com/projects/AIhZh0lIAJko7snRmM5f)** under the `Preview` tab. 
+
+<div>
+    <img src="Figures/inference_api.png" width="500"/>
+</div>
 
 ** Example images from test set**: 
 <div>
