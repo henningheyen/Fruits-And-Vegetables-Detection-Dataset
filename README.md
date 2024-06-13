@@ -12,6 +12,9 @@
     <img src="Figures/LVIS_Sample_Images/lvis2.jpg" width="150"/>
     <img src="Figures/LVIS_Sample_Images/lvis3.jpg" width="150"/>
     <img src="Figures/LVIS_Sample_Images/lvis4.jpg" width="150"/>
+</div>
+
+<div>
     <img src="Figures/LVIS_Sample_Images/lvis5.jpg" width="150"/>
     <img src="Figures/LVIS_Sample_Images/lvis6.jpg" width="150"/>
     <img src="Figures/LVIS_Sample_Images/lvis7.jpg" width="150"/>
