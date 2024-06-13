@@ -1,25 +1,5 @@
 # Fruits-And-Vegetables-Detection-Dataset
 
-<div style="display: flex; align-items: center;">
-    <div>
-        <img src="Figures/demo_image.jpg" width="300" style="margin-right: 20px;"/>
-    </div>
-    <div>
-        <strong>TLDR:</strong> This repo contains ...
-        <ul>
-            <li>the biggest fruits and vegetable image YOLO formatted dataset for object detection with 62 classes and 8221 images.</li>
-            <li>three YOLOv8 fine tuned baseline models (<code>medium</code>, <code>large</code>, <code>xlarge</code>).</li>
-            <li>sample application demo for scoring the healthiness of meals</li>
-        </ul>
-    </div>
-</div>
-
-
-<div>
-    <img src="Figures/demo_image.jpg" width="500"/>
-</div>
-
-
 **TLDR**: This repo contains ...
 - the biggest fruits and vegetable image YOLO formatted dataset for object detection with 62 classes and 8221 images.
 - three YOLOv8 fine tuned baseline models (`medium`, `large`, `xlarge`).
@@ -100,7 +80,7 @@ In the [meal_scoring](meal_scoring.ipynb) demo we apply our fine-tuned models to
 - To achieve better performance the class distribution has to be more uniform. As depicted below most detections in the train set are `Bananas`, `Carrots` and `Apples`.
 
 <div>
-    <img src="Figures/Number of Occurrences per Class in the Training Dataset (LVIS_Mirror).png" alt="DatasetDistribution" width="800" height="400"/>
+    <img src="Figures/Number of Occurrences per Class in the Training Dataset.png" alt="DatasetDistribution" width="800" height="400"/>
 </div>
 
 
