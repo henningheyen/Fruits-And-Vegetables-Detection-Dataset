@@ -2,7 +2,7 @@
 
 **TLDR**: This repo contains ...
 - the biggest fruits and vegetable image YOLO formatted dataset for object detection with 62 classes and 8221 images.
-- three YOLOv8 fine tuned model fine-tuned models (`medium`, `large`, `xlarge`).
+- three YOLOv8 fine tuned baseline models (`medium`, `large`, `xlarge`).
 - sample application demo for scoring the healthiness of meals
 
 ## The Dataset
