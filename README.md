@@ -1,14 +1,7 @@
 # Fruits-And-Vegetables-Detection-Dataset
 
 <div>
-    <img src="Figures/LVIS_Sample_Images/lvis1.jpg" width="150"/>
-    <img src="Figures/LVIS_Sample_Images/lvis2.jpg" width="150"/>
-    <img src="Figures/LVIS_Sample_Images/lvis3.jpg" width="150"/>
-    <img src="Figures/LVIS_Sample_Images/lvis4.jpg" width="150"/>
-    <img src="Figures/LVIS_Sample_Images/lvis5.jpg" width="150"/>
-    <img src="Figures/LVIS_Sample_Images/lvis6.jpg" width="150"/>
-    <img src="Figures/LVIS_Sample_Images/lvis7.jpg" width="150"/>
-    <img src="Figures/LVIS_Sample_Images/lvis8.jpg" width="150"/>
+    <img src="Figures/demo_image.jpg" width="500"/>
 </div>
 
 
@@ -18,6 +11,17 @@
 - sample application demo for scoring the healthiness of meals
 
 ## The Dataset
+
+<div>
+    <img src="Figures/LVIS_Sample_Images/lvis1.jpg" width="150"/>
+    <img src="Figures/LVIS_Sample_Images/lvis2.jpg" width="150"/>
+    <img src="Figures/LVIS_Sample_Images/lvis3.jpg" width="150"/>
+    <img src="Figures/LVIS_Sample_Images/lvis4.jpg" width="150"/>
+    <img src="Figures/LVIS_Sample_Images/lvis5.jpg" width="150"/>
+    <img src="Figures/LVIS_Sample_Images/lvis6.jpg" width="150"/>
+    <img src="Figures/LVIS_Sample_Images/lvis7.jpg" width="150"/>
+    <img src="Figures/LVIS_Sample_Images/lvis8.jpg" width="150"/>
+</div>
 
 - The dataset is a subset of the [LVIS dataset](https://www.lvisdataset.org) which consists of 160k images and 1203 classes for object detection. It is originally COCO-formatted (`.json` based).
 - We have converted this dataset to YOLO format (`.txt` based)
