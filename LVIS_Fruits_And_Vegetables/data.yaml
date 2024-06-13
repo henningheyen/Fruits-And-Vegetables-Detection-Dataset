@@ -1,0 +1,71 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: LVIS_Fruits_And_Vegetables # dataset root dir
+train: images/train # 1000 train images (relative to 'path') 
+val: images/test # 7221 val images (relative to 'path') 
+test: images/test # 180 Manually labeled test images 
+
+names:
+  0: almond
+  1: apple
+  2: apricot
+  3: artichoke
+  4: asparagus
+  5: avocado
+  6: banana
+  7: bean curd/tofu
+  8: bell pepper/capsicum
+  9: blackberry
+  10: blueberry
+  11: broccoli
+  12: brussels sprouts
+  13: cantaloup/cantaloupe
+  14: carrot
+  15: cauliflower
+  16: cayenne/cayenne spice/cayenne pepper/cayenne pepper spice/red pepper/red pepper
+  17: celery
+  18: cherry
+  19: chickpea/garbanzo
+  20: chili/chili vegetable/chili pepper/chili pepper vegetable/chilli/chilli vegetable/chilly/chilly
+  21: clementine
+  22: coconut/cocoanut
+  23: edible corn/corn/maize
+  24: cucumber/cuke
+  25: date/date fruit
+  26: eggplant/aubergine
+  27: fig/fig fruit
+  28: garlic/ail
+  29: ginger/gingerroot
+  30: Strawberry
+  31: gourd
+  32: grape
+  33: green bean
+  34: green onion/spring onion/scallion
+  35: Tomato
+  36: kiwi fruit
+  37: lemon
+  38: lettuce
+  39: lime
+  40: mandarin orange
+  41: melon
+  42: mushroom
+  43: onion
+  44: orange/orange fruit
+  45: papaya
+  46: pea/pea food
+  47: peach
+  48: pear
+  49: persimmon
+  50: pickle
+  51: pineapple
+  52: potato
+  53: prune
+  54: pumpkin
+  55: radish/daikon
+  56: raspberry
+  57: strawberry
+  58: sweet potato
+  59: tomato
+  60: turnip
+  61: watermelon
+  62: zucchini/courgette
+
