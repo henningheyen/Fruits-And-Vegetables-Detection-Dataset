@@ -82,6 +82,7 @@ In the [meal_scoring](meal_scoring.ipynb) demo applies the fine-tuned models to 
 ## Future Steps
 
 - To achieve better performance the class distribution has to be more uniform. As depicted below most detections in the train set are `Bananas`, `Carrots` and `Apples`.
+- Two classes are duplicates in the LVIS dataset for `Tomato` and `Strawberry` (see LVIS classes). However, the corresponding images in the capital letter classes do not contain tomatoes and strawberries. Since only a few images are affected, the models are not affected. Some housekeeping here would make this dataset more clean and consistent. 
 
 <div>
     <img src="Figures/Number of Occurrences per Class in the Training Dataset.png" alt="DatasetDistribution" width="800" height="400"/>
