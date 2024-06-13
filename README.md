@@ -14,49 +14,46 @@
     - [Kaggle](https://www.kaggle.com/datasets/henningheyen/lvis-fruits-and-vegetables-dataset) and
     - [Ultralytics Dataset HUB](https://hub.ultralytics.com/datasets/F2NY9oa4vTCPgy9chAe5)
 
-# The Model
+## The Model
+
+Getting started:
+
+```
+pip install -r requirements.txt
+```
 
 To fine-tune a YOLOv8 model the following code can be used as also shown in the [demo](demo.ipynb):
 
 ```
 from ultralytics import YOLO
 
-# Load a pretrained model (e.g. YOLOv8)
-model = YOLO('yolov8n.yaml')  # build a new model from YAML
+# Load a pretrained model (e.g. YOLOv8m)
+model = YOLO('yolov8m.yaml')  # build a new model from YAML
 
 # Fine tuning the model on our custom dataset
 results = model.train(data='LVIS_Fruits_And_Vegetables/data.yaml', epochs=50, imgsz=640)
 ```
 
+Training locally can be time-consuming. We have trained the models using Ultrylitics HUB Cloud compute resources. Three models have been trained based on different sizes of the pre-trained models (`yolov8m`, `yolov8l`, `yolov8x). The model weights for each model have been stored in `.pt` format in the [Model_Weights](Model_Weights) folder (just unzip). Performance ranges from `0.152` for the `medium` model to `0.202` for the `xlarge` model measured by mAP50-95 (see [Figure](Figures/mAP50-95 by Model Size.png)).
 
-The models have been trained using Ultrylitics HUB Cloud compute resources. Three models have been trained based on different sizes of the pretrained models (`yolov8m`, `yolov8l`, `yolov8x). 
+## Inference
 
+The [demo](demp.ipynb) contains examples on how to run inference. Example images with detection using the `xlarge` model can be found in the [Example_Results](Example_Results) folder. 
+
+To test our models on a web interface check out the **[Ultralytics Inference API](https://hub.ultralytics.com/projects/AIhZh0lIAJko7snRmM5f)** under the `Preview` tab. 
+
+## Future Steps
+
+- To achieve better performance the class distribution has to be more uniform. As depicted below most detections in the train set are `Bananas`, `Carrots` and `Apples`.
+
+<div>
+    <img src="Figures/Number of Occurrences per Class in the Training Dataset (LVIS_Mirror).png" alt="DatasetDistribution" width="200"/>
+</div>
 
 
 This repository contains most of the code used for the *Eat The Rainbow* one-week challenge. The goal was to develop a model that detects fruits and vegetables in user-uploaded images and scores them according to a scoring logic (see [Assignment](Presentation_and_Assignment/Home-Assignment-Eat-the-Rainbow.pdf)). 
 
 The [Presentation](Presentation_and_Assignment/Presentation-Mirror_compressed.pdf) summarizes the assignment.
-
-# Approaches 
-
-We explored mainly two approaches:
-
-- **Fine Tuning Custom Model**:
-    - Three Ultralytics Yolov8 models (`medium`, `large`, `xlarge`) have been fine-tuned on `LVIS_Mirror` (a custom dataset that consists of all labelled images from the LVIS dataset that contain fruits and vegetables, 63 classes and 8221 images)
-    - The models have been trained on the Ultralytics Hub. Try it out yourself [here](https://hub.ultralytics.com/projects/AIhZh0lIAJko7snRmM5f) (under *Preview* tab)
-    - You'll find some example detections using the `xlarge` model under the `plots/examples` folder.
-
-- **GPT 4 Vision Prompt Based**:
-    - Here we tested how well GPT4 can detect fruits and vegetables in images
-    - Check out the [`GPT4-Vision.html`](GPT4-Vision.html) file for some experiments.
-
-# Getting started
-
-Note that most code is not executable because the labelled data and model weights are not uploaded here. The `.ipynb` files have also been exported to `.html` to facilitate readability. 
-
-```
-pip install -r requirements.txt
-```
 
 # Examples
 
