@@ -58,7 +58,7 @@ The [demo](demp.ipynb) contains examples on how to run inference. Example images
 To test our models on a web interface check out the **[Ultralytics Inference API](https://hub.ultralytics.com/projects/AIhZh0lIAJko7snRmM5f)** under the `Preview` tab. 
 
 <div>
-    <img src="Figures/inference_api.png" width="500"/>
+    <img src="Figures/inference_api.png" width="750"/>
 </div>
 
 ** Example images from test set**: 
@@ -75,8 +75,7 @@ To test our models on a web interface check out the **[Ultralytics Inference API
 In the [meal_scoring](meal_scoring.ipynb) demo we apply our fine-tuned models to score the healthiness of meals. A use case could be that users upload photos of their meals and with our simple and complex scoring algorithms, the user will then be rewarded points depending on how colourful and healthy the meal is. 
 
 <div>
-    <img src="Example_Results/20240327_3c8f4813-06ae-4d71-8dd3-d6f5d2e41c9a_4_png.rf.ef6e00bb24b03c891f248a60686d94f1.jpg.png" alt="Example 1" width="300"/>
-    <img src="Figures/meal_scoring_example.png" alt="Example 1" width="300"/>
+    <img src="Figures/meal_scoring_example.png" alt="Example 1" width="500"/>
 </div>
 
 ## Future Steps
