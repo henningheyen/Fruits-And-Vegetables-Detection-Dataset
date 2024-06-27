@@ -55,7 +55,7 @@ Training locally can be time-consuming. Therefore, the models have been trained 
 
 ## Inference
 
-The [demo](demp.ipynb) contains examples of how to run inference. Example images with detection using the `xlarge` model can be found in the [Example_Results](Example_Results) folder. 
+The [demo](demo.ipynb) contains examples of how to run inference. Example images with detection using the `xlarge` model can be found in the [Example_Results](Example_Results) folder. 
 
 To test the models on a web interface check out the **[Ultralytics Inference API](https://hub.ultralytics.com/projects/AIhZh0lIAJko7snRmM5f)** under the `Preview` tab. 
 
