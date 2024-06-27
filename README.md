@@ -74,7 +74,7 @@ To test the models on a web interface check out the **[Ultralytics Inference API
 
 ## Sample Application: Meal Scoring
 
-In the [meal_scoring](meal_scoring.ipynb) demo applies the fine-tuned models to score the healthiness of meals. A use case could be that users upload photos of their meals and with one simple and one complex scoring algorithm, the user will then be rewarded points depending on how colourful and healthy the meal is. 
+The [meal_scoring](meal_scoring.ipynb) demo applies the fine-tuned models to score the healthiness of meals. A use case could be that users upload photos of their meals and with one simple and one complex scoring algorithm, the user will then be rewarded points depending on how colourful and healthy the meal is. 
 
 <div>
     <img src="Figures/meal_scoring_example.png" alt="Example 1" width="500"/>
