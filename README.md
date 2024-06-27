@@ -25,7 +25,7 @@
 - The dataset is a subset of the [LVIS dataset](https://www.lvisdataset.org) which consists of 160k images and 1203 classes for object detection. It is originally COCO-formatted (`.json` based).
 - The dataset has been converted from COCO format (`.json`) to YOLO format (`.txt` based)
 - All images that do not contain any fruits or images have been removed, resulting in `8221` images and `63` classes (`6721`train, `1500` validation). Additional `180` test images have been manually labelled with Roboflow
-- The classes cover most common fruits and vegetables (see [fruits_vegetables_LVIS_dict.json](fruits_vegetables_LVIS_dict.json)
+- The classes cover most common fruits and vegetables (see [fruits_vegetables_LVIS_dict.json](fruits_vegetables_LVIS_dict.json))
 - The `LVIS-Fruits-And-Vegetables-Dataset` has also been uploaded to
     - [Kaggle](https://www.kaggle.com/datasets/henningheyen/lvis-fruits-and-vegetables-dataset) and
     - [Ultralytics Dataset HUB](https://hub.ultralytics.com/datasets/F2NY9oa4vTCPgy9chAe5)
@@ -50,7 +50,7 @@ model = YOLO('yolov8m.yaml')  # build a new model from YAML
 results = model.train(data='LVIS_Fruits_And_Vegetables/data.yaml', epochs=50, imgsz=640)
 ```
 
-Training locally can be time-consuming. The models have been trained using Ultrylitics HUB Cloud compute resources. Three models have been trained based on different sizes of the pre-trained models (`yolov8m`, `yolov8l`, `yolov8x). The model weights for each model have been stored in `.pt` format in the [Model_Weights](Model_Weights) folder (just unzip). Performance ranges from `0.152` for the `medium` model to `0.202` for the `xlarge` model measured by mAP50-95 (see [Figure](Figures/mAP50-95 by Model Size.png)).
+Training locally can be time-consuming. Therefore, the models have been trained using Ultrylitics HUB Cloud compute resources. Three models were trained based on different sizes of the pre-trained models (`yolov8m`, `yolov8l`, `yolov8x`). The model weights for each model have been stored in `.pt` format in the [Model_Weights](Model_Weights) folder (just unzip). Performance ranges from `0.152` for the `medium` model to `0.202` for the `xlarge` model measured by mAP50-95 (see [Figure](Figures/mAP50-95 by Model Size.png)).
 
 ## Inference
 
