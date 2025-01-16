@@ -50,7 +50,7 @@ model = YOLO('yolov8m.yaml')  # build a new model from YAML
 results = model.train(data='LVIS_Fruits_And_Vegetables/data.yaml', epochs=50, imgsz=640)
 ```
 
-Training locally can be time-consuming. Therefore, the models have been trained using Ultrylitics HUB Cloud compute resources. Three models were trained based on different sizes of the pre-trained models (`yolov8m`, `yolov8l`, `yolov8x`). The model weights for each model have been stored in `.pt` format in the [Model_Weights](Model_Weights) folder (just unzip). Performance ranges from `0.152` for the `medium` model to `0.202` for the `xlarge` model measured by mAP50-95 (see [Figure](Figures/mAP50-95-by-Model-Size.png)).
+Training locally can be time-consuming. Therefore, the models have been trained using Ultrylitics HUB Cloud compute resources. Three models were trained based on different sizes of the pre-trained models (`yolov8m`, `yolov8l`, `yolov8x`). The model weights for each model have been stored in `.pt` format and can be downloaded from this [gDrive] folder(https://drive.google.com/drive/folders/1I4mtQK11C3p41pO9raR0trgPVj0eQ2yb?usp=sharing). Performance ranges from `0.152` for the `medium` model to `0.202` for the `xlarge` model measured by mAP50-95 (see [Figure](Figures/mAP50-95-by-Model-Size.png)).
 
 
 ## Inference
